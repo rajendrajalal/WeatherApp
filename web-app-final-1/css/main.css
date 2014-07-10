@@ -1,0 +1,33 @@
+/* ==========================================================================
+   Web App Boilerplate - Main.css
+   ========================================================================== */
+
+/* Native Tags */
+body {
+	padding: 20px;
+}
+
+/* App View */
+#app-view {
+	padding-top: 10px;
+}
+
+/* Navigation Bar */
+.navbar {
+	margin: 0 10px 10px 10px;
+}
+
+/* Page Views */
+.page-view > h3 {
+	margin-left: 20px;
+}
+
+/* Places List */
+#places-list {
+	padding: 20px;
+}
+#places-list .panel {
+	width: 300px;
+	float: left;
+	margin-right: 20px;
+}

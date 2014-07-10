@@ -1,0 +1,66 @@
+/* ==========================================================================
+   Web App Boilerplate - Main.css
+   ========================================================================== */
+
+/* Native Tags */
+body {
+	padding: 20px;
+}
+
+/* App View */
+#app-view {
+	padding-top: 10px;
+}
+
+/* Navigation Bar */
+.navbar {
+	margin: 0 10px 10px 10px;
+}
+
+/* Page Views */
+.page-view > h3 {
+	margin-left: 20px;
+}
+
+/* Places List */
+#places-list {
+	padding: 20px;
+}
+#places-list .panel {
+	width: 300px;
+	float: left;
+	margin-right: 20px;
+	overflow: hidden;
+}
+#places-list .panel.detail {
+	width: 1152px;
+}
+#places-list .panel .panel-body{
+	width:1136px;
+}
+
+/* Forecast Days */
+.forecast-day {
+	border: 1px solid #cccccc;
+	padding: 10px;
+	width: 268px;
+	float: left;
+	margin-right: 16px;
+}
+.forecast-day img{ 
+	float: left; 
+	margin: 10px;
+}
+.forecast-day p{ 
+	font-size: 26px;
+}
+.celsius .forecast-day .forecast-fahr{
+	display: none;
+}
+.fahrenheit .forecast-day .forecast-cel{
+	display: none;
+}
+
+
+
+
